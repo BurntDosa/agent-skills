@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Subagent Standard"
+  short_description: "Tailor a Neon/Astra/Opus subagent standard to any repo"
+  default_prompt: "Use $setup-subagent-standard to inspect this repository and create a tailored local subagent standard with project-specific activity playbooks."
