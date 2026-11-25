@@ -12,16 +12,16 @@ Personal cross-harness [Agent Skills](https://agentskills.io) repository for Cod
 
 ### Recommended: `npx skills` (works across Codex, Claude Code, Antigravity, Cursor)
 
-Install globally on a machine (uses your `gh` / Git credentials for this private repo):
+Install globally on any machine:
 
 ```bash
-npx skills add https://github.com/BurntDosa/agent-skills.git --skill setup-subagent-standard -g
+npx skills add BurntDosa/agent-skills --skill setup-subagent-standard -g
 ```
 
 Or install into a single repository (`.agents/skills/`):
 
 ```bash
-npx skills add https://github.com/BurntDosa/agent-skills.git --skill setup-subagent-standard
+npx skills add BurntDosa/agent-skills --skill setup-subagent-standard
 ```
 
 Update later:
